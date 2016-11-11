@@ -20,7 +20,7 @@ var exphbs = require('express-handlebars');
 
 // register handlebars
 app.engine('handlebars',exphbs({
-	defaultLayout: 'main.handlebars'
+	defaultLayout: 'main'
 }));
 
 // set the view engine
