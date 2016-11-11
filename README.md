@@ -1,4 +1,4 @@
-# week14-Eat-D-Burger
+# Eat-D-Burger
 A full stack restaurant like application.
 
 ### Demo
