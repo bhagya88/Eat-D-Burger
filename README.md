@@ -19,13 +19,13 @@ MVC design pattern and Server side rendering are used.
 
 * Controller - Requests coming to the server are handled by the controller/router which in turn communicates with model to get data and passes it to the views. 
 
-### Challenges Faced
+### Challenges faced
 
 * How to seperate the code into MVC pattern?
 * How connect to the different pieces of code together?
 * How to get it to work on heroku?
 
-### Solution Found
+### Solution found
 
 * Creating a MVC style directory structure helped seperate the code into MVC pattern.
 * Visualizing which piece of code gets called first, how it calls the other functions and how the controls flows, helped to integrate it into a single application.
