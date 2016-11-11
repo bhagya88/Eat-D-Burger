@@ -13,7 +13,7 @@ A full stack restaurant like application.
 ### Design
 MVC design pattern and Server side rendering are used. 
 
-* Model - ORM and Custom orm are created to model the database which in turn calls the generic orm.
+* Model - Generic ORM and Custom orm are created to model the database. Custom orm calls the generic orm.
 
 * Views- Views are created using handlebars, HTML, CSS
 
