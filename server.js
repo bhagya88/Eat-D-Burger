@@ -1,8 +1,12 @@
 var express = require('express');
 var methodOveride = require('method-override');
 var bodyParser = require('body-parser');
+var exphbs = require('express-handlebars');
+var burgers = require('./controllers/burgers_controller.js');
 
+// set the port
 var PORT = process.env.PORT || 3000;
+// instantiate express
 var app = express();
 
 //Serve static content for the app from the "public" directory in the application directory.
@@ -25,6 +29,8 @@ app.engine('handlebars',exphbs({
 
 // set the view engine
 app.set('view engine', 'handlebars');
+
+app.use('/',burgers);
 
 
 app.listen(PORT,function(){
