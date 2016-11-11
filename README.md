@@ -42,7 +42,8 @@ MVC design pattern and server side rendering is used.
 * The app will store every burger in a database, whether devoured or not.
 
 #### Directory structure:
-The directory structure for this application looks like this
+The directory structure for this application looks like this.
+```
 .
 ├── config
 │   ├── connection.js
@@ -65,7 +66,7 @@ The directory structure for this application looks like this
 ├── public
 │   ├── assets
 │   │   ├── css
-│   │   │   
+│   │   │   └── burger_style.css
 │   │   └── img
 │   │       └── burger.png
 │   └── test.html
@@ -76,7 +77,7 @@ The directory structure for this application looks like this
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-
+```
 
 
 
