@@ -24,7 +24,7 @@ app.engine('handlebars',exphbs({
 }));
 
 // set the view engine
-app.set('view-engine', 'handlebars');
+app.set('view engine', 'handlebars');
 
 
 app.listen(PORT,function(){
