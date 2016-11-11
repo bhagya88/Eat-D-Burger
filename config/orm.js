@@ -1,6 +1,6 @@
 var connection = require('./connection.js');
 
-// object relational mapper (ORM)
+// generic object relational mapper (ORM)
 
 var orm = {
 
