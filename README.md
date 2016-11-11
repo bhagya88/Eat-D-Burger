@@ -10,7 +10,7 @@ A full stack restaurant like application.
 ### Design
 MVC design pattern and server side rendering is used. 
 
-* Model - ORM and Custom orm are created to model the databse which in turn calls the generic orm.
+* Model - ORM and Custom orm are created to model the database which in turn calls the generic orm.
 
 * Views- Views are created using handlebars, HTML, CSS
 
@@ -43,7 +43,7 @@ MVC design pattern and server side rendering is used.
 
 #### Directory structure:
 The directory structure for this application looks like this
-
+.
 ├── config
 │   ├── connection.js
 │   └── orm.js
