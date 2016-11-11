@@ -1,6 +1,9 @@
 # week14-Eat-D-Burger
 A full stack restaurant like application.
 
+### Demo
+[Check to see the demo](https://guarded-reef-93870.herokuapp.com/)
+
 ### Technologies used
 * Node.js, Express
 * MySql database
@@ -15,9 +18,6 @@ MVC design pattern and server side rendering is used.
 * Views- Views are created using handlebars, HTML, CSS
 
 * Controller - Requests coming to the server are handled by the controller/router which in turn communicates with model to get data and passes it to the views. 
-
-### Demo
-[Check to see the demo](https://guarded-reef-93870.herokuapp.com/)
 
 ### Challenges Faced
 
