@@ -28,7 +28,7 @@ CREATE TABLE `burgers` (
   `devoured` tinyint(1) DEFAULT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `burgers` (
 
 LOCK TABLES `burgers` WRITE;
 /*!40000 ALTER TABLE `burgers` DISABLE KEYS */;
-INSERT INTO `burgers` VALUES (1,'Chicken Burger',1,'2016-11-11 00:31:50'),(2,'Veggie Burger',1,'2016-11-11 00:31:50'),(3,'Bean Burger',1,'2016-11-11 00:31:50'),(4,'Cheese Burger',1,'2016-11-11 15:30:01'),(5,'Noodle Burger',1,'2016-11-11 15:31:32'),(6,'',1,'2016-11-11 17:40:00');
+
 /*!40000 ALTER TABLE `burgers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
