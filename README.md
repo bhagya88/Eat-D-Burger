@@ -5,10 +5,10 @@ A full stack restaurant like application.
 [Check to see the demo](https://guarded-reef-93870.herokuapp.com/)
 
 ### Technologies used
-* Node.js, Express
-* MySql database
-* Express-handlebars
-* Npm modules - express, mysql, express-handlebars, body-parser, path, method-overide
+* Server - Node.js, Express
+* Database - MySql database
+* Client - Express-handlebars
+* Npm modules used - express, mysql, express-handlebars, body-parser, path, method-overide
 
 ### Design
 MVC design pattern and server side rendering is used. 
