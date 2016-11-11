@@ -6,7 +6,7 @@ A full stack restaurant like application.
 
 ### Technologies used
 * Server - Node.js, Express framework
-* Database - MySql database
+* Database - MySql
 * Client - Express-handlebars
 * Npm modules used - express, mysql, express-handlebars, body-parser, path, method-overide
 
@@ -15,7 +15,7 @@ MVC design pattern and Server side rendering are used.
 
 * Model - Generic ORM and Custom orm are created to model the database. Custom orm calls the generic orm.
 
-* Views- Views are created using handlebars, HTML, CSS
+* Views- Views are created using express-handlebars, HTML, CSS
 
 * Controller - Requests coming to the server are handled by the controller/router which in turn communicates with model to get data and passes it to the views. 
 
@@ -41,7 +41,7 @@ MVC design pattern and Server side rendering are used.
 
 * The app will store every burger in a database, whether devoured or not.
 
-#### Directory structure:
+### Directory structure:
 The directory structure for this application looks like this.
 ```
 .
