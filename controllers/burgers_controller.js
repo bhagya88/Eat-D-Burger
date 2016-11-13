@@ -30,7 +30,7 @@ router.get('/',function (req, res) {
 
 
 // define route adding new burger
-router.post('/add', function (req, res) {
+router.post('/', function (req, res) {
 	
 	burgerOrm.addBurger(req.body,function(err,result){
 		if(err){ 
@@ -43,7 +43,7 @@ router.post('/add', function (req, res) {
 });
 
 // define route adding new burger
-router.put('/devour', function (req, res) {
+router.put('/', function (req, res) {
 	burgerOrm.devourBurger(parseInt(req.body.id),function(err,result){
 		if(err){ 
 			console.log("error: burger not devoured. ",err);
