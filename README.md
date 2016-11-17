@@ -25,11 +25,11 @@ MVC design pattern and Server side rendering are used.
 * How connect to the different pieces of code together?
 * How to get it to work on heroku?
 
-### Solution found
+### Solutions found
 
 * Creating a MVC style directory structure helped seperate the code into MVC pattern.
 * Visualizing which piece of code gets called first, how it calls the other functions and how the controls flows, helped to integrate it into a single application.
-* Creating database on Jaws DB helped to get it get working on heroku.
+* Creating database on JAWS DB helped to get it get working on heroku.
 
 ### How it works
 
