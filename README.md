@@ -1,5 +1,7 @@
 # Eat-D-Burger
-A full stack restaurant like application.
+
+### Overview
+A full stack fun restaurant like application where user orders burger of his choice which gets added to a list. He then has option to eat them. When he eats it gets displayed in a devoured list.
 
 ### Demo
 [Check to see the demo](https://guarded-reef-93870.herokuapp.com/)
